@@ -12,61 +12,28 @@
   "manifestVersion": 5,
   "entrypoints": [
     {
-      "type": "command",
-      "id": "showAlert",
-      "label": "Show alert"
-    },
-    {
       "type": "panel",
       "id": "vanilla",
-      "minimumSize": {
-        "width": 230,
-        "height": 200
-      },
-      "maximumSize": {
-        "width": 2000,
-        "height": 2000
-      },
-      "preferredDockedSize": {
-        "width": 230,
-        "height": 300
-      },
-      "preferredFloatingSize": {
-        "width": 230,
-        "height": 300
-      },
+      "minimumSize": { "width": 230, "height": 200 },
+      "maximumSize": { "width": 2000, "height": 2000 },
+      "preferredDockedSize": { "width": 230, "height": 300 },
+      "preferredFloatingSize": { "width": 230, "height": 300 },
       "icons": [
         {
           "width": 32,
           "height": 32,
-          "path": "icons/dark.png",
-          "scale": [
-            1,
-            2
-          ],
-          "theme": [
-            "dark",
-            "darkest"
-          ],
-          "species": [
-            "generic"
-          ]
+          "path": "icons/panel/dark.png",
+          "scale": [1, 2],
+          "theme": ["dark", "darkest"],
+          "species": ["generic"]
         },
         {
           "width": 32,
           "height": 32,
-          "path": "icons/light.png",
-          "scale": [
-            1,
-            2
-          ],
-          "theme": [
-            "lightest",
-            "light"
-          ],
-          "species": [
-            "generic"
-          ]
+          "path": "icons/panel/light.png",
+          "scale": [1, 2],
+          "theme": ["lightest", "light"],
+          "species": ["generic"]
         }
       ],
       "label": {
@@ -78,29 +45,14 @@
     {
       "width": 23,
       "height": 23,
-      "path": "icons/dark.png",
-      "scale": [
-        1,
-        2
-      ],
-      "theme": [
-        "darkest",
-        "dark",
-        "medium"
-      ]
+      "path": "icons/plugin/dark.svg",
+      "theme": ["darkest", "dark", "medium"]
     },
     {
       "width": 23,
       "height": 23,
-      "path": "icons/light.png",
-      "scale": [
-        1,
-        2
-      ],
-      "theme": [
-        "lightest",
-        "light"
-      ]
+      "path": "icons/plugin/light.svg",
+      "theme": ["lightest", "light"]
     }
   ]
 }
