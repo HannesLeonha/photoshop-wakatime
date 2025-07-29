@@ -2,7 +2,7 @@
   "id": "wakatime",
   "name": "WakaTime",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "src/index.html",
   "host": [
     {
       "app": "PS",
