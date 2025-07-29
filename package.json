@@ -1,0 +1,7 @@
+{
+  "name": "photoshop-wakatime",
+  "version": "1.0.0",
+  "description": "Tracks how much time you have spent editing photos using WakaTime.",
+  "author": "Hannes Leonhartsberger",
+  "license": "Apache-2.0"
+}
