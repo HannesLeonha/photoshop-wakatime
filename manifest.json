@@ -14,10 +14,10 @@
     {
       "type": "panel",
       "id": "vanilla",
-      "minimumSize": { "width": 230, "height": 200 },
-      "maximumSize": { "width": 2000, "height": 2000 },
-      "preferredDockedSize": { "width": 230, "height": 300 },
-      "preferredFloatingSize": { "width": 230, "height": 300 },
+      "minimumSize": { "width": 240, "height": 147 },
+      "maximumSize": { "width": 400, "height": 147 },
+      "preferredDockedSize": { "width": 240, "height": 147 },
+      "preferredFloatingSize": { "width": 240, "height": 147 },
       "icons": [
         {
           "width": 32,
@@ -54,5 +54,14 @@
       "path": "icons/plugin/light.svg",
       "theme": ["lightest", "light"]
     }
-  ]
+  ],
+  "featureFlags": {
+    "enableAlerts": true
+  },
+  "requiredPermissions": {
+    "launchProcess": {
+      "schemes": [ "https", "slack" ],
+      "extensions": [ ".pdf", ".xd", ".psd" ]
+    }
+  }
 }
